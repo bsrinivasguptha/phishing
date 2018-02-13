@@ -22,3 +22,4 @@
 			mysqli_query($conn, "UPDATE reports SET trained='$date_time' WHERE id='$user_id' LIMIT 1");
 		}
 	}
+
